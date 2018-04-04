@@ -7,6 +7,7 @@ import sys
 if "__main__" == __name__:
 	ws = None
 
+	# Socket Connection
 	try:
 		ws = websocket.create_connection("wss://api.huobipro.com/ws")
 	except:
